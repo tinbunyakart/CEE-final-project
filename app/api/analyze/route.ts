@@ -26,10 +26,13 @@ export async function POST(req: NextRequest) {
     }
 
     // Initialize model
-    const model = genAI.getGenerativeModel({ model: 'gemma-4-26b-a4b-it' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite-preview' });
 
     // Prompt for recipe generation
-    const prompt = "Look at this image of food ingredients. Identify what they are, and suggest 1 simple recipe I can make with them.";
+    const prompt = `Identify ingredients in the image and suggest 1 recipe. 
+                    OUTPUT ONLY the ingredients list and instructions. 
+                    STRICTLY FORBIDDEN to include any thinking process, analysis, or introductory text like "Here is a thinking process..." or "Based on the image...".
+                    Start immediately with the heading "## Identified Ingredients".`;
 
     // Prepare image data
     const imageParts = [
