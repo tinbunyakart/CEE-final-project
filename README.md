@@ -18,13 +18,5 @@ Responsive Design รองรับการใช้งานทั้งบ�
 
 Vercel Optimized: พร้อมใช้งานบนระบบ Cloud ของ Vercel อย่างเต็มรูปแบบ
 
-🛠 Tech Stack
-Frontend: Next.js 16 (App Router), TypeScript, Tailwind CSS
-
-Backend: Next.js Serverless Functions
-
-AI SDK: Google Generative AI (@google/generative-ai)
-
-Auth: Clerk (Next.js SDK)
-
-Icons: Lucide React
+Click the link below to enter.
+https://cee-final-projecttt.vercel.app
