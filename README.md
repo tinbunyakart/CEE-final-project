@@ -10,13 +10,11 @@ Secure Authentication: ระบบสมาชิกและรักษาค
 
 Smart UI/UX:
 
-รองรับ Dark & Light Mode อย่างสมบูรณ์
+รองรับ Dark & Light Mode
 
 ระบบ Button Debouncing ป้องกันการกดซ้ำและลดปัญหา API Rate Limit (429)
 
 Responsive Design รองรับการใช้งานทั้งบนมือถือและคอมพิวเตอร์
-
-Vercel Optimized: พร้อมใช้งานบนระบบ Cloud ของ Vercel อย่างเต็มรูปแบบ
 
 ------------------------------------------------
 
