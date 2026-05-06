@@ -29,7 +29,7 @@ export async function POST(req: NextRequest) {
     const model = genAI.getGenerativeModel({ model: 'gemma-4-26b-a4b-it' });
 
     // Prompt for recipe generation
-    const prompt = "Look at this image of food ingredients. Identify what they are, and suggest 1 simple recipe I can make with them. Format the response with clear headings.";
+    const prompt = "Look at this image of food ingredients. Identify what they are, and suggest 1 simple recipe I can make with them.";
 
     // Prepare image data
     const imageParts = [
