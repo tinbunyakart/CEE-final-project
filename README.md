@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🍳 Snap & Cook — AI Recipe Generator
+Snap & Cook คือแอปพลิเคชันอัจฉริยะที่ช่วยแก้ปัญหา "เย็นนี้กินอะไรดี?" โดยการเปลี่ยนรูปภาพวัตถุดิบในตู้เย็นของคุณให้กลายเป็นสูตรอาหารพร้อมปรุงในไม่กี่วินาที พัฒนาด้วยเทคโนโลยี AI ล่าสุดเพื่อประสิทธิภาพและความเร็วสูงสุด
 
-## Getting Started
+✨ Features
+Next-Gen AI Analysis: ขับเคลื่อนด้วยโมเดล Gemini 3.1 Flash Lite (Preview) รุ่นล่าสุดที่เน้นความเร็ว (Low Latency) และความแม่นยำสูง
 
-First, run the development server:
+Zero-Process Output: ระบบปรับแต่ง Prompt พิเศษเพื่อแสดงเฉพาะวัตถุดิบและวิธีทำ โดยตัดขั้นตอนการคิดของ AI ออก เพื่อให้อ่านง่ายและใช้งานได้ทันที
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Secure Authentication: ระบบสมาชิกและรักษาความปลอดภัยผ่าน Clerk
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Smart UI/UX:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+รองรับ Dark & Light Mode อย่างสมบูรณ์
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ระบบ Button Debouncing ป้องกันการกดซ้ำและลดปัญหา API Rate Limit (429)
 
-## Learn More
+Responsive Design รองรับการใช้งานทั้งบนมือถือและคอมพิวเตอร์
 
-To learn more about Next.js, take a look at the following resources:
+Vercel Optimized: พร้อมใช้งานบนระบบ Cloud ของ Vercel อย่างเต็มรูปแบบ
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🛠 Tech Stack
+Frontend: Next.js 16 (App Router), TypeScript, Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Backend: Next.js Serverless Functions
 
-## Deploy on Vercel
+AI SDK: Google Generative AI (@google/generative-ai)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Auth: Clerk (Next.js SDK)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Icons: Lucide React
