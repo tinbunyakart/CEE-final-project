@@ -9,7 +9,7 @@ export async function POST(req: Request) {
     const { imageBase64 } = await req.json();
 
     // เลือกใช้โมเดล flash ที่เก่งเรื่องภาพและทำงานเร็ว
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-pro' });
 
     // คำสั่งที่ส่งให้ AI
     const prompt = "Look at this image of food ingredients. Identify what they are, and suggest 1 simple recipe I can make with them. Format the response with clear headings.";
